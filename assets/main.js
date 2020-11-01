@@ -51,6 +51,16 @@ $(document).ready(function () {
         console.log(studentDatabase[i]);
     }
 
+    // richiesta all'utente di inserire un nuovo oggetto student nell'array
+
+    var inputStudent;
+    
+    inputStudent = {
+        'name': inputName,
+        'surname': inputSurname,
+        'age': inputAge
+    };
+
 
 
 }
