@@ -5,9 +5,9 @@ $(document).ready(function () {
     var student;
 
     student = {
-        'name' = 'Tizio';
-        'surname' = 'Tizii';
-        'age' = 25;
+        'name' : 'Tizio',
+        'surname' : 'Tizii',
+        'age' : '25'
     }
 
     // ciclo for che riporta in console i dati dell'oggetto
