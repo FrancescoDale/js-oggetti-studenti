@@ -64,9 +64,12 @@ $(document).ready(function () {
         'age': inputAge
     };
 
-    inputname = prompt('inserire nome: ');
+    inputName = prompt('inserire nome: ');
+    inputStudent.name = inputName;
     inputSurname = prompt('inserire cognome: ');
+    inputStudent.surname = inputSurname;
     inputAge = prompt('inserire età : ');
+    inputStudent.age = inputAge;
 
 
 
