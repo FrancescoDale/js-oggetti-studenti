@@ -57,6 +57,7 @@ $(document).ready(function () {
     var inputName;
     var inputSurname;
     var inputAge;
+    var inputAdd;
 
     inputStudent = {
         'name': inputName,
@@ -71,7 +72,13 @@ $(document).ready(function () {
     inputAge = prompt('inserire età : ');
     inputStudent.age = inputAge;
 
+    // i dati inseriti dall'utente vengono messi nell'array di oggetti studentDatabase
 
+    inputAdd = studentDatabase.push(inputStudent);
+
+    for (var i = 0; i < studentDatabase.length; i++) {
+        console.log(studentDatabase[i]);
+    }
 
 }
 );
