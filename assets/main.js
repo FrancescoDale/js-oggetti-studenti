@@ -54,12 +54,19 @@ $(document).ready(function () {
     // richiesta all'utente di inserire un nuovo oggetto student nell'array
 
     var inputStudent;
-    
+    var inputName;
+    var inputSurname;
+    var inputAge;
+
     inputStudent = {
         'name': inputName,
         'surname': inputSurname,
         'age': inputAge
     };
+
+    inputname = prompt('inserire nome: ');
+    inputSurname = prompt('inserire cognome: ');
+    inputAge = prompt('inserire età : ');
 
 
 
