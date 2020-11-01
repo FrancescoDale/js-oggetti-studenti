@@ -21,11 +21,35 @@ $(document).ready(function () {
 
     // array di oggetti student
 
-    var studentDatabase[];
+    var studentDatabase;
 
     studentDatabase = [
 
+        {
+            'name' : 'Tizio',
+            'surname' : 'Tizii',
+            'age' : '25'
+        },
+
+        {
+            'name' : 'Caio',
+            'surname' : 'Caii',
+            'age' : '28'
+        },
+
+        {
+            'name' : 'Sempronio',
+            'surname' : 'Sempronii',
+            'age' : '30'
+        }
+
     ];
+
+    // visualizzazione in console
+
+    for (var i = 0; i < studentDatabase.length; i++) {
+        console.log(studentDatabase[i]);
+    }
 
 
 
