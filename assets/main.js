@@ -19,5 +19,15 @@ $(document).ready(function () {
         console.log(student[key]);
     }
 
+    // array di oggetti student
+
+    var studentDatabase[];
+
+    studentDatabase = [
+
+    ];
+
+
+
 }
 );
