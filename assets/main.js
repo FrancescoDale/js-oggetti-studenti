@@ -76,6 +76,8 @@ $(document).ready(function () {
 
     inputAdd = studentDatabase.push(inputStudent);
 
+    // controllo che l'oggetto sia stato aggiunto all'array di oggetti
+
     for (var i = 0; i < studentDatabase.length; i++) {
         console.log(studentDatabase[i]);
     }
